@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Final Project"/>
+<meta name="Description" content="For the CIW Web Foundations Associate courses"/>
+<meta charset="utf-8"/>
+<link rel="stylesheet"  type="text/css" href="MyStyle.css"/>
+<title>Laura Summervill Guestbook</title>
+</head>
+<body>
+
+<header>
+<h1>Laura Summervill</h1>
+</header>
+
+<nav id="navbar">
+	<div id="tabi1"><a href="home.htm">Home</a></div>
+	<div id="tabi2"><a href="resume.htm">Resume</a></div>
+	<div id="taba">Guest Book</div>
+	<div id="tabi3"><a href="interests.htm">Interests</a></div>
+	<div id="tabi4"><a href="reflections.htm">Reflections</a></div>
+</nav>
+
+<div id="main">
+
+<h2>Guest Book</h2>
+	
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+
+
+<br/>
+Enter Your website: <input type="text" name="website" size="40" value="http:"/>
+<br/>
+
+
+<br/>
+How did you find my website? <br/>
+<select name="FindWebsite">
+<option>Select one</option>
+<option>Just surfed in!</option>
+<option>Word of mouth</option>
+<option>By search engine</option>
+<option>A friend sent me</option>
+<option>Other</option>
+</select>
+<br/>
+
+
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>
+</form>
+</div>
+</body>
+</html>
